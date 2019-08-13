@@ -58,6 +58,12 @@ public class TestNGBasics {
 		System.out.println("@ test --- Test case - Google Logo check");
 	}
 	
+	@Test
+	public void EmailLogo()
+	{
+		System.out.println("@ test --- Test case - Email Logo check");
+	}
+	
 	@AfterMethod
 	public void Logout()
 	{
